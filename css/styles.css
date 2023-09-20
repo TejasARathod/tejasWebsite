@@ -144,6 +144,17 @@ textarea {
     line-height: 1.6
 }
 
+.heading-sec__sub-text {
+    display: block;
+    text-align: justify;
+    color: #555;
+    font-size: 2rem;
+    font-weight: 500;
+    max-width: 80rem;
+    margin: auto;
+    line-height: 1.6
+}
+
 @media only screen and (max-width: 37.5em) {
     .heading-sec__sub {
         font-size:1.8rem
@@ -362,8 +373,17 @@ textarea {
 .about__content-details-para {
     font-size: 1.8rem;
     color: #666;
+    max-width: 100%;
     line-height: 1.7;
-    margin-bottom: 1rem
+    margin-bottom: 1rem;
+}
+.about__content-details-para-head {
+    font-size: 4rem;
+    color: #7843e9;
+    max-width: 100%;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+    text-align: center;
 }
 
 .about__content-details-para--hl {
@@ -377,9 +397,9 @@ textarea {
 
 .about__content-details-para a {
     text-decoration: underline;
-    font-weight: 700;
-    color: #7843e9;
-    margin: 0 3px
+    font-weight: 300;
+    color: #7ea1ff;
+    margin: 0 3px;
 }
 
 .projects__row {
