@@ -362,7 +362,6 @@ textarea {
 .about__content-details-para {
     font-size: 1.8rem;
     color: #666;
-    max-width: 60rem;
     line-height: 1.7;
     margin-bottom: 1rem
 }
