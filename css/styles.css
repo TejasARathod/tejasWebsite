@@ -361,7 +361,9 @@ textarea {
 .about__content-title {
     font-weight: 700;
     font-size: 2.8rem;
-    margin-bottom: 3rem
+    margin-bottom: 3rem;
+    text-align: center;
+    margin-top: 30px;
 }
 
 @media only screen and (max-width: 37.5em) {
@@ -1037,4 +1039,14 @@ textarea {
         opacity: 0;
         top: 27px
     }
+}
+
+.heading-2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #ffffff;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: -.025em;
 }
